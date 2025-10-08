@@ -1,0 +1,226 @@
+body {
+  background-color: rgb(39, 95, 133);
+   color: white;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 23px;
+}
+.one a{
+    color: rgb(86, 161, 223);
+}
+.one {
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(190, 175, 122);
+}
+.one ul {
+    margin: 0;
+    padding: 0;
+}
+.one li {
+  display: inline-block;
+  margin: 0 25px; 
+}
+.one a:hover {
+  color: rgb(73, 180, 162);
+  text-decoration: underline;
+}
+.one a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card {
+    background-color: rgba(112, 136, 216, 0.959);
+    border: 5px dotted;
+    border-color: rgb(201, 205, 209);
+    border-radius: 12px;
+    padding: 12px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2);
+    border-color: rgb(0, 217, 255)
+}
+
+.card h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h4 {
+    font-family: times 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.card p {
+    text-decoration: underline;
+    font-style: normal;
+}
+.card b {
+    color: rgb(227, 166, 34);
+}
+.two b {
+    font-style: italic;
+    color: rgb(234, 175, 49);
+    text-decoration: underline;
+}
+.two ul {
+    color: rgb(255, 177, 8);
+}
+.two a  {
+    text-decoration: underline;
+    color: rgb(168, 219, 48);
+}
+.two img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out;
+    border: 2px double blue;
+
+}
+.four img:hover{
+    width: 50%;
+}
+.four ul{
+    color: rgb(180, 154, 99);
+}
+
+.navi {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.side, .side2, .side3, .side4 {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top:  auto;
+    align-items: center;
+}
+.one a:hover {
+  color: rgb(73, 180, 162);
+  text-decoration: underline;
+}
+.one a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card {
+    background-color: rgb(112, 136, 216, 0.959);
+    border: 5px dotted;
+    border-color: rgb(201, 205, 209);
+    border-radius: 12px;
+    padding: 12px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    transition: all ease-in-out;
+}
+.card h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h4 {
+    font-family: times 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.card p {
+    text-decoration: underline;
+    font-style: normal;
+}
+.card b {
+    color: rgb(227, 166, 34);
+}
+.two b {
+    font-style: italic;
+    color: rgb(234, 175, 49);
+    text-decoration: underline;
+}
+.two ul {
+    color: rgb(255, 177, 8);
+}
+.two a  {
+    text-decoration: underline;
+    color: rgb(168, 219, 48);
+}
+.two img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out;
+    border: 2px double blue;
+    transition: all 0.3s ease;
+}
+.four img:hover{
+    width: 50%;
+}
+.four ul{
+    color: rgb(180, 154, 99);
+}
+
+.navi {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.side, .side2, .side3, .side4 {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top:  auto;
+    align-items: center;
+}
+
+.side:hover, .side2:hover, .side3:hover, .side4:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2);
+    border-color: rgb(0, 217, 255)
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  transform: scale(2.5); 
+  margin-right: 25px;     
+  cursor: pointer;
+}
+
+
